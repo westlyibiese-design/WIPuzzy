@@ -1,16 +1,38 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- 3x3 tile mark: eight tiles and one lifted out of the grid (the holding slot) -->
-    <path android:fillColor="#FFEDE9E2" android:pathData="M30,40h14v14h-14z" />
-    <path android:fillColor="#FFEDE9E2" android:pathData="M47,40h14v14h-14z" />
-    <path android:fillColor="#FFEDE9E2" android:pathData="M64,40h14v14h-14z" />
-    <path android:fillColor="#FFEDE9E2" android:pathData="M30,57h14v14h-14z" />
-    <path android:fillColor="#FFC9A45C" android:pathData="M47,57h14v14h-14z" />
-    <path android:fillColor="#FFEDE9E2" android:pathData="M64,57h14v14h-14z" />
-    <path android:fillColor="#FFEDE9E2" android:pathData="M30,74h14v14h-14z" />
-    <path android:fillColor="#FFEDE9E2" android:pathData="M47,74h14v14h-14z" />
-    <path android:fillColor="#FF4A4C52" android:pathData="M30,22h14v14h-14z" />
+    <group
+        android:translateX="25.88"
+        android:translateY="31.82"
+        android:scaleX="0.095"
+        android:scaleY="0.095">
+        <path
+            android:pathData="M345,68 A200,200 0 1 0 345,400"
+            android:strokeWidth="66"
+            android:strokeLineCap="round">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="40"
+                    android:startY="40"
+                    android:endX="400"
+                    android:endY="430">
+                    <item android:offset="0" android:color="#F0A02A" />
+                    <item android:offset="1" android:color="#9C3A1C" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:fillColor="#D95D33"
+            android:pathData="M350,88 L514,138 L350,188 Z" />
+        <path
+            android:fillColor="#F0A028"
+            android:pathData="M344,163 L591,240 L344,315 Z" />
+        <path
+            android:fillColor="#D95D33"
+            android:pathData="M350,290 L514,340 L350,390 Z" />
+    </group>
 </vector>
