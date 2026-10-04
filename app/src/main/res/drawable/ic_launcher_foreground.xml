@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 3x3 tile mark: eight tiles and one lifted out of the grid (the holding slot) -->
+    <path android:fillColor="#FFEDE9E2" android:pathData="M30,40h14v14h-14z" />
+    <path android:fillColor="#FFEDE9E2" android:pathData="M47,40h14v14h-14z" />
+    <path android:fillColor="#FFEDE9E2" android:pathData="M64,40h14v14h-14z" />
+    <path android:fillColor="#FFEDE9E2" android:pathData="M30,57h14v14h-14z" />
+    <path android:fillColor="#FFC9A45C" android:pathData="M47,57h14v14h-14z" />
+    <path android:fillColor="#FFEDE9E2" android:pathData="M64,57h14v14h-14z" />
+    <path android:fillColor="#FFEDE9E2" android:pathData="M30,74h14v14h-14z" />
+    <path android:fillColor="#FFEDE9E2" android:pathData="M47,74h14v14h-14z" />
+    <path android:fillColor="#FF4A4C52" android:pathData="M30,22h14v14h-14z" />
+</vector>
