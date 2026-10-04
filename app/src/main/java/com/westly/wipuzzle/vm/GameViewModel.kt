@@ -73,9 +73,9 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
     var game by mutableStateOf<GameUi?>(null)
         private set
 
-    var customSource by mutableStateOf<ImageBitmap?>(null)
+    @set:JvmName("assignCustomSource") var customSource by mutableStateOf<ImageBitmap?>(null)
         private set
-    var customSize by mutableStateOf(3)
+    @set:JvmName("assignCustomSize") var customSize by mutableStateOf(3)
         private set
 
     private var engine: SlidingEngine? = null
